@@ -3,6 +3,8 @@
 
 An internet connection is required for this library.
 
+Ensure pip is up to date before installing gTTS.
+
 ### `ensurepip`
 
 Python comes with an `ensurepip` module, which can install pip in a Python environment.
@@ -13,11 +15,14 @@ $ python -m ensurepip --upgrade
 
 ### `upgrade pip`
 
-Python comes with an {mod}`ensurepip` module[^python], which can install pip in
-a Python environment.
+To upgrade pip at the command line.
 
 ```{pip-cli}
-$ python -m pip install --upgrade pip
+$ pip install --upgrade pip
+```
+or
+```{pip-cli}
+$ python.exe -m pip install --upgrade pip
 ```
 
 ### Installation
