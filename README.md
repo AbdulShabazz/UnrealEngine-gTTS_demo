@@ -1,7 +1,7 @@
 # UnrealEngine-gTTS_demo
  Google text-to-speech library and respeecher voice-mapping tool for Unreal Engine 5, powered by Python 3.11.
 
-An internet connection is required to use this library.
+An internet connection is required for this library.
 
 ### `ensurepip`
 
