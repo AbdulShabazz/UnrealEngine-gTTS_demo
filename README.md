@@ -5,8 +5,7 @@ An internet connection is required for this library.
 
 ### `ensurepip`
 
-Python comes with an {mod}`ensurepip` module[^python], which can install pip in
-a Python environment.
+Python comes with an `ensurepip` module, which can install pip in a Python environment.
 
 ```{pip-cli}
 $ python -m ensurepip --upgrade
