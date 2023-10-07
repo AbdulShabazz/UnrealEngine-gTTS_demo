@@ -49,7 +49,7 @@ Module:
 >>> tts.save('hello.mp3')
 ```
 
-Command Line:
+Optional Command Line:
 
 ```{pip-cli}
 $ gtts-cli 'hello' --output hello.mp3
