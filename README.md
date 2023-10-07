@@ -7,7 +7,7 @@ Ensure pip is up to date before installing gTTS.
 
 ### ensurepip
 
-Python comes with an `ensurepip` module, which can install pip in a Python environment.
+Python comes with an `ensurepip` module, which can install pip from a Python environment.
 
 ```{pip-cli}
 $ python -m ensurepip --upgrade
