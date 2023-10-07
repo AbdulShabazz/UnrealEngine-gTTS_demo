@@ -25,7 +25,7 @@ or
 $ python.exe -m pip install --upgrade pip
 ```
 
-### Installation
+### gTTS Installation
 
 ```{pip-cli}
 $ pip install gTTS
