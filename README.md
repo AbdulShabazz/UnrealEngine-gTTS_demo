@@ -15,7 +15,7 @@ $ python -m ensurepip --upgrade
 
 ### upgrade pip
 
-To upgrade pip at the command line.
+Also, to upgrade pip at the command line.
 
 ```{pip-cli}
 $ pip install --upgrade pip
