@@ -1,7 +1,7 @@
 # UnrealEngine-gTTS_demo
 An offline Google text-to-speech library and respeecher voice-mapping tool for Unreal Engine 5, powered by Python 3.11.
 
-An internet connection is required for this library.
+An internet connection is required.
 
 Ensure pip is up to date before installing gTTS.
 
