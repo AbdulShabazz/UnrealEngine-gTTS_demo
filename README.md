@@ -87,8 +87,8 @@ This project is *not* affiliated with Google or Google Cloud. Breaking upstream 
 
 ### Other recommended libraries
 
-[ffmpeg](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, and generating thumbnails.
-[avconv](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, and generating thumbnails. Now part of the ffmpeg pyhton library. Refer to the How-To-Use documentation.
+[ffmpeg](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, generating thumbnails, and transcoding-, splitting-, merging- audio and video files.
+[avconv](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, generating thumbnails, and transcoding-, splitting-, merging- audio and video files. Now part of the ffmpeg python library. Refer to the How-To-Use documentation.
 
 ### ffmpeg-python
 
@@ -98,4 +98,15 @@ $ pip install ffmpeg-python
 or
 ```{pip-cli}
 python.exe -m pip install ffmpeg-python
+```
+
+Module:
+```python
+>>> import ffmpeg
+>>> # Load the input video file
+>>> input_video = ffmpeg.input('input.mp4')
+>>> # Convert the input video to WEBM format.
+>>> output_video = ffmpeg.output(input_video, 'output.webm', format='webm')
+>>> # Run the ffmpeg command to convert the video
+>>> ffmpeg.run(output_video)
 ```
