@@ -65,7 +65,7 @@ $ pip install gTTS
 ```
 or
 ```{pip-cli}
-python.exe -m pip install gTTS
+$ python.exe -m pip install gTTS
 ```
 
 ## Features
@@ -107,7 +107,7 @@ $ pip install ffmpeg-python
 ```
 or
 ```{pip-cli}
-python.exe -m pip install ffmpeg-python
+$ python.exe -m pip install ffmpeg-python
 ```
 
 Module:
@@ -128,7 +128,7 @@ $ pip install matplotlib
 ```
 or
 ```{pip-cli}
-python.exe -m pip install matplotlib
+$ python.exe -m pip install matplotlib
 ```
 
 Module:
