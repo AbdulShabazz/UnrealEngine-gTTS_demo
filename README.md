@@ -100,8 +100,6 @@ This project is *not* affiliated with Google or Google Cloud. Breaking upstream 
 
 [avconv](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, generating thumbnails, and transcoding-, splitting-, merging- audio and video files. Now part of the ffmpeg python library. Refer to the How-To-Use documentation.
 
-### ffmpeg-python
-
 ```{pip-cli}
 $ pip install ffmpeg-python
 ```
