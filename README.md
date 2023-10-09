@@ -118,3 +118,25 @@ Module:
 >>> # Convert the input video to WEBM format.
 >>> output_video = ffmpeg.output(input_video, 'output.webm', format='webm').run()
 ```
+
+[matplotlib](https://matplotlib.org/stable/users/installing.html) - For plotting graphs and charts.
+Installation:
+
+```{pip-cli}
+$ pip install matplotlib
+```
+or
+```{pip-cli}
+python.exe -m pip install matplotlib
+```
+
+Module:
+```python
+>>> import matplotlib.pyplot as chart
+>>> # Plot a line graph
+>>> chart.plot([1, 2, 3, 4],[5, 6, 7, 8])
+>>> chart.ylabel('some numbers')
+>>> chart.show()
+```
+
+If you cn see the plot then matplotlib is installed correctly.
