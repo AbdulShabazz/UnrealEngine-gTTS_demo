@@ -118,5 +118,5 @@ Module:
 >>> # Convert the input video to WEBM format.
 >>> output_video = ffmpeg.output(input_video, 'output.webm', format='webm')
 >>> # Run the ffmpeg command to convert the video
->>> ffmpeg.run(output_video)
+>>> output_video.run()
 ```
