@@ -1,0 +1,1 @@
+TODO: Generate the formant F0 excitation signal and then use stochastic rules- and event-based signal generation cues (parametric Hidden Markov Model HMM) for phoneme to mel spectrogram generation
