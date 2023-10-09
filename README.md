@@ -120,6 +120,7 @@ Module:
 ```
 
 [matplotlib](https://matplotlib.org/stable/users/installing.html) - For plotting graphs and charts.
+
 Installation:
 
 ```{pip-cli}
