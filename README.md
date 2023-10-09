@@ -140,4 +140,4 @@ Module:
 >>> chart.show()
 ```
 
-If you cn see the plot then matplotlib is installed correctly.
+If you can see the plot then matplotlib is installed correctly.
