@@ -49,6 +49,15 @@ or
 $ python.exe -m pip install pydub
 ```
 
+Module:
+```python
+>>> import pydub
+>>> # Load the FLAC audio file
+>>> input_audio = pydub.AudioSegment.from_file('input.flac', format='flac')
+>>> # Convert the FLAC audio to WAV format.
+>>> output_audio = input_audio.export('output.wav', format='wav')
+```
+
 ### gTTS Installation
 
 ```{pip-cli}
