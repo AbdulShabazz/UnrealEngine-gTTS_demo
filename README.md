@@ -116,7 +116,5 @@ Module:
 >>> # Load the input video file
 >>> input_video = ffmpeg.input('input.mp4')
 >>> # Convert the input video to WEBM format.
->>> output_video = ffmpeg.output(input_video, 'output.webm', format='webm')
->>> # Run the ffmpeg command to convert the video
->>> output_video.run()
+>>> output_video = ffmpeg.output(input_video, 'output.webm', format='webm').run()
 ```
