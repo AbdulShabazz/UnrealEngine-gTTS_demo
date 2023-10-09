@@ -25,6 +25,30 @@ or
 $ python.exe -m pip install --upgrade pip
 ```
 
+### numpy
+
+Numpy (16MB) is a python library used in scientific computing.
+
+```{pip-cli}
+$ pip install numpy
+```
+or
+```{pip-cli}
+$ python.exe -m pip install numpy
+```
+
+### pydub
+
+Pydub (32KB) is a python library which converts between audio file formats.
+
+```{pip-cli}
+$ pip install pydub
+```
+or
+```{pip-cli}
+$ python.exe -m pip install pydub
+```
+
 ### gTTS Installation
 
 ```{pip-cli}
@@ -60,3 +84,8 @@ See <http://gtts.readthedocs.org/> for documentation and examples.
 ### Disclaimer
 
 This project is *not* affiliated with Google or Google Cloud. Breaking upstream changes *can* occur without prior notice. This project is leveraging the undocumented [Google Translate](https://translate.google.com) speech functionality and is *unrelated* to [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/).
+
+### Other recommended libraries
+
+[ffmpeg](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, and generating thumbnails.
+[avconv](https://ffmpeg.org/download.html) - Now part of ffmpeg. For converting between audio and video files, extracting audio from video files, and generating thumbnails. Refer to the How-To-Use documentation.
