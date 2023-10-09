@@ -27,7 +27,7 @@ $ python.exe -m pip install --upgrade pip
 
 ### numpy
 
-Numpy (16MB) is a python library used in scientific computing.
+Numpy (16MB) is a python library used for scientific computing.
 
 ```{pip-cli}
 $ pip install numpy
