@@ -39,7 +39,7 @@ $ python.exe -m pip install numpy
 
 ### pydub
 
-Pydub (32KB) is a python library which converts between audio file formats.
+Pydub (32KB) is a python library which converts between audio file formats, and can playback .WAV, .FLAC, .AAC, .MP3 files.
 
 ```{pip-cli}
 $ pip install pydub
@@ -56,6 +56,8 @@ Module:
 >>> input_audio = pydub.AudioSegment.from_file('input.flac', format='flac')
 >>> # Convert the FLAC audio to WAV format.
 >>> output_audio = input_audio.export('output.wav', format='wav')
+>>> # Play the audio file
+>>> output_audio.play()
 ```
 
 ### gTTS Installation
