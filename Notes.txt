@@ -1,5 +1,8 @@
 
+- .VOICE are region-specific phoneme-to-phone voice libraries
 - .WAV files are (hgh fidelilty lossless) audio files (Windows)
 - .FLAC files are (hgh fidelilty lossless) audio files (Mac)
 - .MP3 are platform independant (compresssed lossy) audio files
+- .AAC are platform independant (compresssed lossy) audio files
+- .py are python platform independant shell script files (cf. Windows bash)
 - .code-workspace is an optional workspace viewer for Visual Studio Code
