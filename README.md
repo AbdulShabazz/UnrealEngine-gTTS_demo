@@ -3,11 +3,11 @@ An offline Google text-to-speech library and respeecher speech-to-speech voice-r
 
 An internet connection is required.
 
-Ensure pip is up to date before installing gTTS.
-
 ## Setup
 
 The codebase depends on a few packages, most notably `ensurepip`, `pip`, `numpy`, `pydub`, `ffmpeg` and `gTTS`.
+
+Ensure pip is up to date before installing gTTS.
 
 `ensurepip` - Python comes with an `ensurepip` module, which can install pip from a Python environment.
 
