@@ -1,3 +1,4 @@
 TODO: Generate the formant F0 excitation signal and then use stochastic rules- and event-based signal generation cues (parametric Hidden Markov Model HMM) for phoneme to mel spectrogram generation
 TODO: Generate the excitation tone, white noise, and the pitch curve and then mix them (via a convolve filter) into a desired phone
 TODO: Generate MD5 w/ audio file to optionally evaluate before opening
+TODO: Repurpose the Whisper repo's mel-spectrograph as a gTTS spectrograph
