@@ -9,7 +9,7 @@ The codebase depends on a few packages, most notably `ensurepip`, `pip`, `numpy`
 
 Ensure pip is up to date before installing gTTS.
 
-`ensurepip` - Python comes with an `ensurepip` Usage, which can install pip from a Python environment.
+`ensurepip` - Python comes with an `ensurepip` Example, which can install pip from a Python environment.
 
 ```{pip-cli}
 $ python -m ensurepip --upgrade
@@ -45,7 +45,7 @@ or
 $ python.exe -m pip install pydub
 ```
 
-Usage:
+Example:
 ```python
 >>> import pydub
 >>> # Load the FLAC audio file
@@ -70,7 +70,7 @@ or
 $ python.exe -m pip install ffmpeg-python
 ```
 
-Usage:
+Example:
 ```python
 >>> import ffmpeg
 >>> # Load the input video file
@@ -91,7 +91,7 @@ or
 $ python.exe -m pip install matplotlib
 ```
 
-Usage:
+Example:
 ```python
 >>> import matplotlib.pyplot as chart
 >>> # Plot a line graph
@@ -119,7 +119,7 @@ or
 $ python.exe -m pip install gTTS
 ```
 
-Usage:
+Example:
 ```python
 >>> from gtts import gTTS
 >>> tts = gTTS('hello')
