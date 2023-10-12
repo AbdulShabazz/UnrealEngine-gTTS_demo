@@ -56,16 +56,6 @@ Module:
 >>> output_audio.play()
 ```
 
-`gTTS`- gTTS Installation
-
-```{pip-cli}
-$ pip install gTTS
-```
-or
-```{pip-cli}
-$ python.exe -m pip install gTTS
-```
-
 [ffmpeg](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, generating thumbnails, and transcoding-, splitting-, merging- audio and video files. 
 
 [avconv](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, generating thumbnails, and transcoding-, splitting-, merging- audio and video files. Now part of the ffmpeg python library. Refer to the How-To-Use documentation.
@@ -118,6 +108,16 @@ If you can see the plot then matplotlib is installed correctly.
 -   Customizable text pre-processors which can, for example, provide pronunciation corrections;
 
 ### Quickstart
+
+`gTTS`- gTTS Installation
+
+```{pip-cli}
+$ pip install gTTS
+```
+or
+```{pip-cli}
+$ python.exe -m pip install gTTS
+```
 
 Module:
 ```python
