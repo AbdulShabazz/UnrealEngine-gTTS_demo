@@ -5,17 +5,17 @@ An internet connection is required.
 
 Ensure pip is up to date before installing gTTS.
 
-### ensurepip
+## Setup
 
-Python comes with an `ensurepip` module, which can install pip from a Python environment.
+The codebase depends on a few packages, most notably `ensurepip`, `pip`, `numpy`, `pydub`, `ffmpeg` and `gTTS`.
+
+`ensurepip` - Python comes with an `ensurepip` module, which can install pip from a Python environment.
 
 ```{pip-cli}
 $ python -m ensurepip --upgrade
 ```
 
-### upgrade pip
-
-Also, to upgrade pip at the command line.
+`upgrade pip` - Also, to upgrade pip at the command line.
 
 ```{pip-cli}
 $ pip install --upgrade pip
@@ -25,9 +25,7 @@ or
 $ python.exe -m pip install --upgrade pip
 ```
 
-### numpy
-
-Numpy (16MB) is a python library used for scientific computing.
+`numpy` - Numpy (16MB) is a python library used for scientific computing.
 
 ```{pip-cli}
 $ pip install numpy
@@ -37,9 +35,7 @@ or
 $ python.exe -m pip install numpy
 ```
 
-### pydub
-
-Pydub (32KB) is a python library which converts between audio file formats, and can playback .WAV, .FLAC, .AAC, .MP3 files.
+`pydub` - Pydub (32KB) is a python library which converts between audio file formats, and can playback .WAV, .FLAC, .AAC, .MP3 files.
 
 ```{pip-cli}
 $ pip install pydub
@@ -60,7 +56,7 @@ Module:
 >>> output_audio.play()
 ```
 
-### gTTS Installation
+`gTTS`- gTTS Installation
 
 ```{pip-cli}
 $ pip install gTTS
@@ -69,34 +65,6 @@ or
 ```{pip-cli}
 $ python.exe -m pip install gTTS
 ```
-
-## Features
-
--   Customizable speech-specific sentence tokenizer that allows for unlimited lengths of text to be read, all while keeping proper intonation, abbreviations, decimals and more;
--   Customizable text pre-processors which can, for example, provide pronunciation corrections;
-
-### Quickstart
-
-Module:
-```python
->>> from gtts import gTTS
->>> tts = gTTS('hello')
->>> tts.save('hello.mp3')
-```
-
-Optional Command Line:
-
-```{pip-cli}
-$ gtts-cli 'hello' --output hello.mp3
-```
-
-See <http://gtts.readthedocs.org/> for documentation and examples.
-
-### Disclaimer
-
-This project is *not* affiliated with Google or Google Cloud. Breaking upstream changes *can* occur without prior notice. This project is leveraging the undocumented [Google Translate](https://translate.google.com) speech functionality and is *unrelated* to [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/).
-
-### Other recommended libraries
 
 [ffmpeg](https://ffmpeg.org/download.html) - For converting between audio and video files, extracting audio from video files, generating thumbnails, and transcoding-, splitting-, merging- audio and video files. 
 
@@ -143,3 +111,29 @@ Module:
 ```
 
 If you can see the plot then matplotlib is installed correctly.
+
+## gTTS Features
+
+-   Customizable speech-specific sentence tokenizer that allows for unlimited lengths of text to be read, all while keeping proper intonation, abbreviations, decimals and more;
+-   Customizable text pre-processors which can, for example, provide pronunciation corrections;
+
+### Quickstart
+
+Module:
+```python
+>>> from gtts import gTTS
+>>> tts = gTTS('hello')
+>>> tts.save('hello.mp3')
+```
+
+Optional Command Line:
+
+```{pip-cli}
+$ gtts-cli 'hello' --output hello.mp3
+```
+
+See <http://gtts.readthedocs.org/> for documentation and examples.
+
+### Disclaimer
+
+This project is *not* affiliated with Google or Google Cloud. Breaking upstream changes *can* occur without prior notice. This project is leveraging the undocumented [Google Translate](https://translate.google.com) speech functionality and is *unrelated* to [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/).
