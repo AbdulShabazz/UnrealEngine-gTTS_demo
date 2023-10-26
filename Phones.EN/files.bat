@@ -1,1 +1,0 @@
-dir /B /O *.mp3 > files.log
