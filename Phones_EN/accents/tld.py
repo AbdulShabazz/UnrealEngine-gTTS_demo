@@ -184,6 +184,6 @@ tld = [
     "rs",
     "co.za",
     "co.zm",
-    "co.zw ",
+    "co.zw",
     "cat"
 ]
