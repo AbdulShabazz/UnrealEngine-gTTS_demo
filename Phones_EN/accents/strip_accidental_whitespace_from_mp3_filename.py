@@ -5,10 +5,9 @@ specified by the filename in the mp3 file.
 
 
 import os
-import string
 
 
-def move_files_to_subfolder(directory_path_string: str):
+def rename_mp3_files_with_whitespace(directory_path_string: str) -> None:
     """
     Moves all mp3 files from the current directory to the directory
     specified by the filename in the mp3 file.
@@ -30,5 +29,5 @@ def move_files_to_subfolder(directory_path_string: str):
 if __name__ == '__main__':
     # Specify the directory containing the .mp3 files
     directory_path = '.'
-    move_files_to_subfolder(directory_path)
+    rename_mp3_files_with_whitespace(directory_path)
 
