@@ -70,6 +70,9 @@ with some examples shown in the table below.
 | Spanish (United States)   | ``es``                   | ``us``                     |
 +---------------------------+--------------------------+----------------------------+
 
+.. note:: The ``tld`` parameter is not limited to the above list. Any Google domain
+    can be used, for example ``tld="co.in"`` or ``tld="com.br"``. See the full list
+    of supported domains at `Google <https://www.google.com/supported_domains>`_.
 
 Examples
 --------
